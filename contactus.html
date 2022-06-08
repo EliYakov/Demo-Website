@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+  </head>
+  <body id="body">
+    <link rel="stylesheet" href="./style.css" />
+
+    <header>
+      <div class="mydiv">
+        <h1 id="mhead">My Demo Website</h1>
+        <h2 id="shead">Contact Us Today</h2>
+        <nav id="nav">
+          |<a href="./Demo Website.html">Home</a>|
+          <a href="./aboutus.html">About Us</a>|
+          <a href="./contactus.html">Contact Us</a>|
+          <a href="./OurProduct.html">Our Product</a>|
+        </nav>
+      </div>
+    </header>
+    <main class="form">
+      <form action="https://formspree.io/f/xpzbbznj" method="POST">
+        <h1>Form</h1>
+        <fieldset id="field">
+          <section>
+            <div id="personal">
+              <div id="details">
+                <label for="name">Full Name :</label>
+                <input
+                  type="text"
+                  name="Full name"
+                  id="Name"
+                  placeholder="Eli Yakov"
+                />
+                <label for="email">Email :</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="E@gmail.com"
+                />
+                <label for="tel">Tel :</label>
+                <input
+                  type="tel"
+                  name="tel"
+                  id="tel"
+                  placeholder="+972-0541111111"
+                />
+              </div>
+              <textarea
+                name="About yourself"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Please enter here more information if necessary"
+              ></textarea>
+            </div>
+
+            <button>Send</button>
+          </section>
+        </fieldset>
+      </form>
+    </main>
+    <footer class="foot">
+      <address>
+        Designed by <a href="tel:+">Eli</a><br />
+        Visit Us at : <br />
+        MyDemoSite.com <br />
+        2nd St, Jerusalem Israel
+      </address>
+      <p>&copy;My Demo Website</p>
+    </footer>
+  </body>
+</html>
